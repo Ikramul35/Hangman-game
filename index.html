@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hangman</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h3>Hangman</h3>
+            <p id="scoreDis">Score: 0</p>
+            <div class="fill"></div>
+            <div class="imgcontainer">
+                <img src="assets/hangman0.png" alt="hangman0" />
+            </div>
+            <div class="inputArea"></div>
+            <div class="overlay">
+                <button onclick="restartGame()">Restart</button>
+            </div>
+            <div class="overlay">
+                <button onclick="nextGame()">Next</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
